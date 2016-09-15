@@ -18,18 +18,37 @@ h1, h2, h3, h4, h5, p {
   font-family: 'exo_2regular';
 }
 
+hr {
+  max-width: 1000px;
+}
+
 .site-title li a img {
   height: 55px;
   width: auto;
+  margin-left: -100px;
+}
+
+.site-title li a:hover {
+  background-color: #000 !important;
+}
+
+@media (max-width: 1310px) {
+  .site-title li a img {
+    margin-left: 0;
+  }
 }
 
 .nav li h5 {
-  padding-top: 7px;
-  padding-right: 345px;
+  margin-top: 2.5px;
+  padding-right: 430px;
   color: #fff;
   font-family: 'exo_2extra_light';
   text-transform: uppercase;
   letter-spacing: 6px;
+}
+
+.nav li h5 img {
+  padding-right: 6px;
 }
 
 @media (max-width: 1199px) {
@@ -46,6 +65,16 @@ h1, h2, h3, h4, h5, p {
 
 .links li {
   padding-top: 20px;
+}
+
+.posts h3 a {
+  color: #fff;
+  font-family: 'exo_2regular';
+  text-transform: uppercase;
+}
+
+.posts p {
+  font-family: 'exo_2regular';
 }
 
 .bg-home {
@@ -65,7 +94,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .section-break {
-  padding: 40px 0;
+  padding: 80px 0;
 }
 
 .header-break {

@@ -5811,28 +5811,41 @@ button.close {
     display: none !important; } }
 @font-face {
   font-family: 'exo_2regular';
-  src: url("/fonts/exo2-regular-webfont.woff2") format("woff2"), url("/fonts/exo2-regular-webfont.woff") format("woff");
+  src: url("/Fonts/exo2-regular-webfont.woff2") format("woff2"), url("/Fonts/exo2-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'exo_2extra_light';
-  src: url("/fonts/exo2-extralight-webfont.woff2") format("woff2"), url("/fonts/exo2-extralight-webfont.woff") format("woff");
+  src: url("/Fonts/exo2-extralight-webfont.woff2") format("woff2"), url("/Fonts/exo2-extralight-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 h1, h2, h3, h4, h5, p {
   font-family: 'exo_2regular'; }
 
+hr {
+  max-width: 1000px; }
+
 .site-title li a img {
   height: 55px;
-  width: auto; }
+  width: auto;
+  margin-left: -100px; }
 
+.site-title li a:hover {
+  background-color: #000 !important; }
+
+@media (max-width: 1310px) {
+  .site-title li a img {
+    margin-left: 0; } }
 .nav li h5 {
-  padding-top: 7px;
-  padding-right: 345px;
+  margin-top: 2.5px;
+  padding-right: 430px;
   color: #fff;
   font-family: 'exo_2extra_light';
   text-transform: uppercase;
   letter-spacing: 6px; }
+
+.nav li h5 img {
+  padding-right: 6px; }
 
 @media (max-width: 1199px) {
   .nav li h5 {
@@ -5842,6 +5855,14 @@ h1, h2, h3, h4, h5, p {
     padding-right: 0px; } }
 .links li {
   padding-top: 20px; }
+
+.posts h3 a {
+  color: #fff;
+  font-family: 'exo_2regular';
+  text-transform: uppercase; }
+
+.posts p {
+  font-family: 'exo_2regular'; }
 
 .bg-home {
   background: #000;
@@ -5858,7 +5879,7 @@ h1, h2, h3, h4, h5, p {
   padding: 30px 0; }
 
 .section-break {
-  padding: 40px 0; }
+  padding: 80px 0; }
 
 .header-break {
   padding-top: 80px; }
