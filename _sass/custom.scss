@@ -123,6 +123,31 @@ hr {
   padding: 0px 5px;
 }
 
+.sitemap {
+  margin-top: -1px;
+  padding-left: 40px;
+}
+
+.sitemap h2 {
+  color: #fff;
+  font-family: 'exo_2regular';
+  text-transform: uppercase;
+}
+
+.sitemap ul {
+  list-style: none;
+}
+
+.sitemap ul li a {
+  color: #fff;
+  font-family: 'exo_2regular';
+}
+
+.sitemap ul li a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
 .custom-modal {
   background: rgb(0,0,0); /* for IE */
   background: rgba(0, 0, 0, 0.5);
@@ -152,6 +177,21 @@ hr {
   background: #000;
   border-color: #fff;
   border-radius: 2px;
+}
+
+.carousel-indicators li {
+  background-color: #999 !important;
+  background-color: rgba(90,90,90,.25) !important;
+  border-color: transparent !important;
+}
+
+.carousel-indicators .active {
+  background-color: rgba(90,90,90,.5) !important;
+  border-color: transparent !important;
+}
+
+.glyphicon {
+  color: #222;
 }
 
 .carousel-fade .carousel-inner .item {
@@ -193,6 +233,12 @@ iframe {
   text-transform: uppercase;
 }
 
+.footer-hr {
+  color: #333;
+  border-color: #333;
+  max-width: 1200px;
+}
+
 .contact-info h2 {
   text-transform: uppercase;
   color: #fff;
@@ -210,10 +256,33 @@ iframe {
 }
 
 .contact-info a:hover {
-  color: #13FFAA;
+  color: #777;
   text-decoration: none;
 }
 
 .footer-channels li a i:hover {
-  color: #13FFAA;
+  color: #777;
+}
+
+.company-info {
+  color: #fff;
+  font-family: 'exo_2regular';
+  padding-bottom: 1   0px;
+}
+
+.company-info p {
+  font-size: .9em;
+  color: #333;
+  text-shadow: none;
+}
+
+.company-info a {
+  color: #333;
+  font-family: 'exo_2regular';
+  text-shadow: none;
+}
+
+.company-info a:hover {
+  color: #777;
+  text-decoration: none;
 }
