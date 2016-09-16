@@ -21,6 +21,20 @@
     bottom: 0px;
 }
 
+.features ul li {
+  list-style: none;
+}
+
+.line img {
+    margin-left: 50px;
+}
+
+@media (max-width: 1199px) {
+  .line img {
+      display: none;
+  }
+}
+
 h1, h2, h3, h4, h5, p {
   font-family: 'exo_2regular';
 }
