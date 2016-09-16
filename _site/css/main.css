@@ -5819,6 +5819,12 @@ button.close {
   src: url("/Fonts/exo2-extralight-webfont.woff2") format("woff2"), url("/Fonts/exo2-extralight-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+#carouselButtons {
+  margin-left: 100px;
+  margin-bottom: 50px;
+  position: absolute;
+  bottom: 0px; }
+
 h1, h2, h3, h4, h5, p {
   font-family: 'exo_2regular'; }
 
@@ -5868,26 +5874,30 @@ hr {
   font-family: 'exo_2regular'; }
 
 .about h1 {
-  color: #fff;
+  color: #777;
   font-family: 'exo_2regular';
   font-size: 3em;
   margin-top: -3px; }
 
-.contact h1 {
-  color: #fff;
-  font-family: 'exo_2regular';
-  font-size: 2em; }
+.contact h2 {
+  color: #333;
+  font-family: 'exo_2regular'; }
 
-.contact h5, h5 a, ul li a {
-  color: #fff;
+.contact p {
+  color: #333;
   font-family: 'exo_2regular';
-  padding: 10px 0; }
+  padding: 5px 0; }
 
-.contact h5 a:hover, ul li a:hover {
+.contact h5, p a, h5 a, ul li a {
+  color: #333;
+  font-family: 'exo_2regular';
+  padding: 5px 0; }
+
+.contact p a:hover, h5 a:hover, ul li a:hover {
   color: #777;
   text-decoration: none; }
 
-.AW-Form-1517026185 {
+.contact .AW-Form-1517026185 {
   margin-left: -30px; }
 
 .contact img {
@@ -5930,7 +5940,7 @@ hr {
   padding-top: 80px; }
 
 .site-footer {
-  color: #fff;
+  color: #333;
   text-shadow: #444 0 1px 1px;
   padding-top: 40px;
   padding-bottom: 0px;
@@ -5938,7 +5948,7 @@ hr {
   padding-right: 0px; }
 
 .fa {
-  color: #fff; }
+  color: #333; }
 
 .footer-channels {
   padding: 15px 0; }
@@ -5946,35 +5956,6 @@ hr {
 .footer-channels li {
   display: inline;
   padding: 0px 5px; }
-
-.sitemap {
-  margin-top: -1px;
-  padding-left: 40px; }
-
-.sitemap h2 {
-  color: #fff;
-  font-family: 'exo_2regular';
-  text-transform: uppercase; }
-
-.sitemap ul {
-  list-style: none; }
-
-.sitemap ul li a {
-  color: #fff;
-  font-family: 'exo_2regular'; }
-
-.sitemap ul li a:hover {
-  color: #777;
-  text-decoration: none; }
-
-.custom-modal {
-  background: black;
-  /* for IE */
-  background: rgba(0, 0, 0, 0.5); }
-
-.custom-modal h4 {
-  color: white;
-  font-family: 'exo_2regular'; }
 
 .navbar {
   background: rgba(0, 0, 0, 0.9);

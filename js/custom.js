@@ -1,7 +1,6 @@
-
-//$('#myModal').on('shown.bs.modal', function () {
-//  $('#myInput').focus()
-//})
+$('.carousel').carousel({
+    pause: "false"
+});
 
 var $myCarousel = $("#myCarousel");
 $myCarousel.on("slide.bs.carousel", function (event) {
