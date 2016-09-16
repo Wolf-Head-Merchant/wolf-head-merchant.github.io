@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FLO Airried Mfg.</title>
+    <title>FLO Airride Mfg.</title>
     <description>The future of Airride is upon us. FLO is proud and ecstatic to be bringing the absolute best in Airride suspension components. New products and builds launching Fall, 2016. Be on the lookout for the lowest. FLO Airride Mfg. 2016.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 15 Sep 2016 10:55:09 -0700</pubDate>
-    <lastBuildDate>Thu, 15 Sep 2016 10:55:09 -0700</lastBuildDate>
+    <link>floairride.com/</link>
+    <atom:link href="floairride.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 16 Sep 2016 09:04:33 -0700</pubDate>
+    <lastBuildDate>Fri, 16 Sep 2016 09:04:33 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Wed, 09 Dec 2015 05:23:50 -0800</pubDate>
-        <link>/jekyll/update/2015/12/09/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/jekyll/update/2015/12/09/welcome-to-jekyll.html</guid>
+        <link>floairride.com/jekyll/update/2015/12/09/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">floairride.com/jekyll/update/2015/12/09/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
