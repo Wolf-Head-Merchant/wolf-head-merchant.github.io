@@ -1,5 +1,7 @@
-$(document).ready(function () {
+// modal auto focus
 
-    $(".player").mb_YTPlayer();
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
 
-});
+// modal function
