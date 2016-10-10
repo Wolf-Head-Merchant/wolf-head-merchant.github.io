@@ -1,14 +1,12 @@
 # Site settings
-title: Codesmiths io
-email: info@codesmiths.com
+title: Wolf Head Merchant
+email: wolfheadmerchant@gmail.com
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Wolf Head Merchant
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-twitter_username: Codesmithis-io
-github_username:  Codesmithis-io
+twitter_username:
+github_username:  
 
 # Build settings
 markdown: kramdown
