@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Codesmiths io</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Wolf Head Merchant</title>
+    <description>Wolf Head Merchant
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Oct 2016 13:05:46 -0700</pubDate>
-    <lastBuildDate>Tue, 04 Oct 2016 13:05:46 -0700</lastBuildDate>
+    <pubDate>Tue, 11 Oct 2016 22:08:14 -0700</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2016 22:08:14 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>

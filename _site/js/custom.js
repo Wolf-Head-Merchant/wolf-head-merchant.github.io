@@ -1,7 +1,12 @@
-// modal auto focus
 
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').focus()
+$('#AboutModal').on('shown.bs.modal', function () {
+  $('#AboutInput').focus()
 })
 
-// modal function
+$('#ProjectsModal').on('shown.bs.modal', function () {
+  $('#AboutInput').focus()
+})
+
+$('#ContactModal').on('shown.bs.modal', function () {
+  $('#AboutInput').focus()
+})
