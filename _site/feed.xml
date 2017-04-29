@@ -4,11 +4,11 @@
     <title>Wolf Head Merchant</title>
     <description>Wolf Head Merchant
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Oct 2016 22:08:14 -0700</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2016 22:08:14 -0700</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 29 Apr 2017 10:49:05 -0700</pubDate>
+    <lastBuildDate>Sat, 29 Apr 2017 10:49:05 -0700</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Wed, 20 Jan 2016 07:29:03 -0800</pubDate>
-        <link>/jekyll/update/2016/01/20/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/jekyll/update/2016/01/20/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/2016/01/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/01/20/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
